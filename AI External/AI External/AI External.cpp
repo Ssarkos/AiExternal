@@ -212,7 +212,7 @@ int FindClosestPlayer(HANDLE gameHandle, DWORD baseAddress, Vector3D playerPosit
 
         // If the current entity is closer to the player than the previously closest entity,
         // set the closest entity to the current entity and update the closest distance
-        if (distance < closestDistance && distance > 0 && entityHealth > 0 && entityHealth < 101) { //&& entityPosition.x != playerPosition.x) {
+        if (distance < closestDistance && distance > 0 && entityHealth > 0 && entityHealth < 101) {
             closestDistance = distance;
             closestEntity = i;
         }
